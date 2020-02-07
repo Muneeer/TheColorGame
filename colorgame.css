@@ -1,0 +1,56 @@
+
+body{
+	text-transform: uppercase;
+	background-color: black;
+	font-weight: bold;
+	margin: 0;
+	letter-spacing: 0.1em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	margin: 0;
+	padding: 5px 0px;
+	text-align: center;
+	color: white;
+}
+#options{
+	text-align: center;
+	background-color: white;
+	color: blue;
+}
+span{
+	margin: 0px 50px;
+}
+
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+}
+.container{
+	width: 50%;
+	margin: 0 auto;
+}
+#navv{
+	background-color: blue;
+}
+
+#newcolors, #easy, #hard:hover{
+	/*a:hover {*/
+ 	cursor:pointer;
+}
+#clr{
+	font-size: 2em;
+}
+/*#hard{
+	background-color: blue;
+	color: white;
+	padding: 0px 20px;
+}*/
+.changeit{
+	background-color: blue;
+	color: white;
+	padding: 0px 20px;
+}
