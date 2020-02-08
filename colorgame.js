@@ -37,6 +37,7 @@ function mian()
 {
 	mainmenu.style.backgroundColor = "steelblue";
 	refresh.textContent="New Colors";
+	dmsg.textContent="";
 
 	for(var i=0;i<times;i++)
 {
