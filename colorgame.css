@@ -16,7 +16,7 @@ h1{
 #options{
 	text-align: center;
 	background-color: white;
-	color: blue;
+	color: steelblue;
 }
 span{
 	margin: 0px 50px;
@@ -28,10 +28,11 @@ span{
 	float: left;
 	margin: 1.66%;
 	border-radius: 25px;
+	transition: background-color 0.5s; 
 }
 .container{
 	width: 50%;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 #navv{
 	background-color: blue;
@@ -40,9 +41,11 @@ span{
 #newcolors, #easy, #hard:hover{
 	/*a:hover {*/
  	cursor:pointer;
+ 	transition: all 0.5s;
 }
 #clr{
 	font-size: 2em;
+	transition: all 3s;
 }
 /*#hard{
 	background-color: blue;
@@ -50,7 +53,10 @@ span{
 	padding: 0px 20px;
 }*/
 .changeit{
-	background-color: blue;
+	background-color: steelblue;
 	color: white;
 	padding: 0px 20px;
+}
+#easy, #hard{
+	margin: 5px;
 }
