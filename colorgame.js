@@ -35,6 +35,7 @@ easy.addEventListener("click", function(){
 //main funtion
 function mian()
 {
+	mainmenu.style.backgroundColor = "steelblue";
 	refresh.textContent="New Colors";
 	for(var i=0;i<times;i++)
 {
