@@ -37,6 +37,9 @@ span{
 #navv{
 	background-color: blue;
 }
+#msg{
+    padding-right: 50px;
+}
 
 #newcolors, #easy, #hard:hover{
 	/*a:hover {*/
