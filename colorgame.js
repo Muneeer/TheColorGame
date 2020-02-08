@@ -75,5 +75,6 @@ mian();
 //Refresh Colors
 refresh.addEventListener("click", function()
 {
+	dmsg.textContent="";
 	mian();
 });
