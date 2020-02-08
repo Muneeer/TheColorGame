@@ -37,6 +37,7 @@ function mian()
 {
 	mainmenu.style.backgroundColor = "steelblue";
 	refresh.textContent="New Colors";
+
 	for(var i=0;i<times;i++)
 {
 	colorarr[i]="rgb("+Math.floor(Math.random()*255)+", "+Math.floor(Math.random()*255)+", "+Math.floor(Math.random()*255)+")";
@@ -76,7 +77,3 @@ refresh.addEventListener("click", function()
 {
 	mian();
 });
-
-
-
-
